@@ -20,7 +20,7 @@ public class Test {
 	
 	@RequestMapping("/newPage")
 	public String saynewPage() {
-		return "Wow it is working" ;
+		return "Wow it is working :)" ;
 	}
 
 }
