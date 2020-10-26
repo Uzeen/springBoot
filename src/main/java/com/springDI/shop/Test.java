@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @ResponseBody
 public class Test {
 
-	@RequestMapping("/test")
+	@RequestMapping("/hello")
 	public String sayHello() {
 		return "Hello i am running from Spring Boot CICD project" ;
 	}
@@ -16,6 +16,11 @@ public class Test {
 	@RequestMapping("/")
 	public String sayGood() {
 		return "All the best Nonu you are my charm !" ;
+	}
+	
+	@RequestMapping("/newPage")
+	public String saynewPage() {
+		return "Wow it is working" ;
 	}
 
 }
