@@ -15,7 +15,7 @@ public class Test {
 	
 	@RequestMapping("/")
 	public String sayGood() {
-		return "All the best Nonu you are my charm !" ;
+		return "All the best Nonu you are my charm :)" ;
 	}
 	
 	@RequestMapping("/newPage")
